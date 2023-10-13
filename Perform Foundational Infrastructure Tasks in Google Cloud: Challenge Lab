@@ -1,0 +1,6 @@
+REGION="us-central1"
+TOPIC_NAME="topic-memories-828"
+
+
+gsutil mb -l $REGION gs://qwiklabs-gcp-02-e6d80e5181ca-bucket
+gcloud pubsub topics create $TOPIC_NAME
